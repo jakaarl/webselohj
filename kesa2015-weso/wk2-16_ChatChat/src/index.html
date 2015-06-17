@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Chat-chat</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body onload="init();">
+        <header>
+            <h1>Chat-chat</h1>
+        </header>
+        <section id="loginView" class="hidden">
+            <form>
+                <label for="nick">Type your nickname to chat:</label>
+                <input type="text" id="nick" name="nick"/>
+                <input type="button" id="login" name="login" value="Log in"/>
+            </form>
+        </section>
+        <section id="chatView" class="hidden">
+            <form>
+                <label for="message">Type a message:</label>
+                <input type="text" id="message" name="message"/>
+                <input type="button" id="send" name="send" value="Send"/>
+                <input type="button" id="refresh" name="refresh" value="Refresh"/>
+                <input type="button" id="logout" name="logout" value="Log out"/>
+            </form>
+        </section>
+
+        <script src="code.js"></script>
+    </body>
+</html>

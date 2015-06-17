@@ -1,0 +1,39 @@
+body {
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+    background-color: rgb(242, 242, 242);
+    margin: 1em;
+    padding: 1em;
+}
+
+article {
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(155, 155, 155);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px
+}
+
+article:hover {
+    -webkit-transform: rotate(-2deg); /* chrome, safari */
+    -moz-transform: rotate(-2deg); /* firefox */
+    -o-transform: rotate(-2deg); /* opera */
+    transform: rotate(-2deg);
+}
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(252, 179, 21);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
